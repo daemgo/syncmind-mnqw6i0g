@@ -1,35 +1,35 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "companyName": "杭州天霖云数字科技有限公司",
   "shortName": "天霖云",
-  "summary": "专注于钉钉生态的企业数字化管理服务商，钉钉钻石7星服务商",
+  "summary": "钉钉钻石7星服务商，专注于以钉钉为中台的企业数字化管理解决方案提供商",
   "industry": "科技/软件",
-  "subIndustry": "企业数字化管理",
+  "subIndustry": "企业服务/SaaS",
   "scale": "30-99人",
-  "mainBusiness": "钉钉软硬件销售、技术开发、企业管理咨询",
+  "mainBusiness": "钉钉软硬件销售服务、基于低代码的企业定制开发、数字化管理解决方案",
   "products": [
     {
-      "name": "钉钉数字化管理服务",
-      "description": "基于钉钉中台的企业数字化管理解决方案"
+      "name": "钉钉生态服务",
+      "description": "钉钉标准版/专业版/专属版销售与服务，宜搭、Teambition等核心产品销售"
+    },
+    {
+      "name": "定制开发服务",
+      "description": "基于低代码平台的企业项目工程类型定制开发"
+    },
+    {
+      "name": "数字化管理咨询",
+      "description": "企业数字化管理升级咨询与实施服务"
     }
   ],
-  "targetCustomers": [
-    "中小企业",
-    "数字化转型需求企业"
-  ],
-  "businessModel": "SaaS服务+咨询服务",
-  "rating": "",
-  "tags": [
-    "钉钉服务商",
-    "数字化转型",
-    "企业服务",
-    "SaaS"
-  ],
+  "targetCustomers": ["中小企业", "需要进行数字化管理升级的企业"],
+  "businessModel": "钉钉生态服务商模式，软件销售+定制开发+咨询服务",
+  "rating": "钉钉钻石7星服务商，全国top前十",
+  "tags": ["钉钉生态", "企业数字化", "低代码", "SaaS服务", "杭州", "企业服务", "数字化转型"],
   "website": null,
   "slogan": "让天下没有难管的企业",
   "isListed": false,
   "stockCode": null,
-  "revenueScale": null,
+  "revenueScale": "中小规模",
   "registration": {
     "registeredName": "杭州天霖云数字科技有限公司",
     "registeredCapital": 1000,
@@ -39,85 +39,111 @@
     "businessStatus": "存续",
     "shareholders": [],
     "branchCount": null,
-    "interpretation": "注册资本1000万元，存续状态，专注于企业数字化管理服务",
-    "organizationType": "私营企业",
+    "interpretation": "注册资本1000万显示公司有一定资金实力，作为钉钉生态服务商需要资金支持业务拓展",
+    "organizationType": "创业型科技公司",
     "keyFindings": [
-      "钉钉钻石7星服务商，全国top前十",
-      "2020年重组后专注钉钉生态"
+      "2017年成立，2020年重组转型专注钉钉生态",
+      "注册资本1000万，具备一定资金实力",
+      "作为钉钉钻石7星服务商，在生态中有一定地位"
     ]
   },
   "hiring": {
     "keySignals": [
       {
         "position": "电话销售",
-        "salary": "8000-10000元",
-        "location": "杭州",
-        "date": "2026-03-16"
+        "salary": "8000-10000元/月",
+        "location": "杭州余杭区",
+        "requirements": "大专及以上，接受应届生和残疾人",
+        "signal": "积极拓展销售团队，体现业务扩张需求"
       }
     ]
   },
   "competition": {
-    "industryRank": "钉钉服务商前十",
+    "industryRank": "钉钉服务商全国top前十",
     "marketShare": null,
-    "mainCompetitors": [
-      "其他钉钉服务商",
-      "用友",
-      "金蝶"
-    ],
-    "knownClients": []
+    "mainCompetitors": ["易协云", "蓝凌叮当", "企企服", "云动魔方", "数里行间"],
+    "knownClients": ["杭州地铁科技有限公司"]
   },
   "organization": {
-    "type": "创业型",
-    "decisionChain": "技术负责人→业务负责人→总经理",
-    "keyPersons": [],
-    "salesStrategy": "聚焦钉钉生态客户，提供数字化管理咨询+实施服务"
+    "type": "创业型科技公司",
+    "decisionChain": "创始人/CEO → 业务负责人 → 技术/销售团队 → 客户",
+    "keyPersons": [
+      {
+        "name": null,
+        "title": "创始人/CEO"
+      },
+      {
+        "name": null,
+        "title": "业务负责人"
+      },
+      {
+        "name": null,
+        "title": "技术负责人"
+      }
+    ],
+    "salesStrategy": "聚焦钉钉生态，通过电话销售+项目定制+咨询服务组合打法，重点拓展杭州及周边地区中小企业客户"
   },
   "timing": {
-    "phase": "扩张强化",
+    "phase": "扩张强化期",
     "analysisBasis": [
-      "钉钉生态持续扩张",
-      "企业数字化转型需求增长",
-      "2020年重组后专注发展"
+      "2020年重组后专注钉钉生态，已建立稳定业务模式",
+      "2026年仍在积极招聘销售团队，显示业务扩张需求",
+      "参与杭州地铁等大型项目，具备服务大客户能力"
     ],
-    "entryStrategy": "通过钉钉服务商渠道切入，提供增值服务",
-    "urgency": "窗口期6-12个月，钉钉生态竞争加剧"
+    "entryStrategy": "通过钉钉生态合作切入，提供互补的定制开发和服务能力",
+    "urgency": "窗口期6-12个月，钉钉生态竞争加剧需快速建立差异化优势"
   },
   "painPoints": [
     {
       "area": "项目管理",
-      "description": "多项目并行混乱，进度不透明",
+      "description": "作为服务商需同时管理多个客户项目，进度和资源协调压力大",
       "severity": "中"
     },
     {
       "area": "客户管理",
-      "description": "客户信息分散，销售过程不透明",
+      "description": "客户信息分散，销售过程需要更系统化管理以提高转化率",
       "severity": "中"
     },
     {
       "area": "知识管理",
-      "description": "经验在个人脑中，新人培养慢",
+      "description": "项目经验和解决方案需要沉淀共享，避免重复造轮子",
       "severity": "中"
+    },
+    {
+      "area": "交付管理",
+      "description": "定制开发项目需求变更频繁，交付质量和周期控制挑战",
+      "severity": "高"
+    },
+    {
+      "area": "合规风险",
+      "description": "近期被列入供应商黑名单，显示内部管理和合规意识需加强",
+      "severity": "高"
     }
   ],
   "opportunities": [
     {
-      "area": "数字化转型",
-      "description": "企业数字化需求持续增长",
+      "area": "低代码平台",
+      "description": "基于钉钉宜搭等低代码平台，为企业提供快速定制开发服务",
       "likelihood": "高"
     },
     {
-      "area": "钉钉生态",
-      "description": "钉钉平台持续扩张带来服务机会",
-      "likelihood": "高"
+      "area": "行业解决方案",
+      "description": "针对特定行业（如制造业、零售业）开发标准化数字化解决方案",
+      "likelihood": "中"
+    },
+    {
+      "area": "AI应用集成",
+      "description": "将AI能力集成到企业数字化管理解决方案中，提升产品竞争力",
+      "likelihood": "中"
     }
   ],
   "riskAndPolicy": {
     "legal": {
-      "lawsuitCount": 0,
-      "executedPerson": 0,
-      "dishonestPerson": 0,
-      "businessAnomalies": 0,
-      "equityFreeze": 0
+      "lawsuitCount": null,
+      "executedPerson": false,
+      "dishonestPerson": false,
+      "businessAnomalies": [],
+      "equityFreeze": false
     },
     "policy": {
       "isSpecializedSME": false,
@@ -125,9 +151,7 @@
       "isHighTech": false,
       "digitalTransformation": {
         "hit": true,
-        "tags": [
-          "数字化转型"
-        ]
+        "tags": ["数字化转型"]
       },
       "esgGreen": {
         "hit": false,
