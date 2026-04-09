@@ -1,0 +1,144 @@
+{
+  "timing": {
+    "timingStage": "扩张强化期",
+    "entryStrategy": "通过钉钉生态合作切入，先解决最痛的项目交付管控问题，展示快速见效的模块，再扩展至CRM和知识管理",
+    "urgency": "窗口期6-12个月，钉钉生态竞争加剧，客户需快速建立差异化优势，项目管理工具是支撑扩张的基础设施"
+  },
+  "stageAdvice": {
+    "focus": "优先解决交付质量管控和多项目并行管理的痛点，这是支撑业务扩张的刚需",
+    "approach": "以钉钉集成为卖点，提供轻量级MVP方案快速落地，用项目看板和验收流程打动业务负责人",
+    "risks": "客户内部流程尚未固化，落地时可能遇到部门协调阻力；竞品可能以低价或定制化方案干扰决策"
+  },
+  "competitors": [
+    {
+      "name": "易协云",
+      "threat": "中",
+      "strengths": ["钉钉生态深度绑定，预集成方案成熟", "在中小企业市场有口碑积累", "价格体系透明，销售话术熟练"],
+      "weaknesses": ["功能相对标准化，定制能力弱", "大客户项目管理经验有限", "解决方案偏通用，行业针对性不强"],
+      "counterStrategy": "突出syncMind的灵活定制能力和行业针对性，用客户案例证明复杂项目交付经验"
+    },
+    {
+      "name": "蓝凌叮当",
+      "threat": "中",
+      "strengths": ["品牌知名度高，客户信任感强", "产品功能全面，覆盖OA、CRM等场景", "销售团队规模大，覆盖区域广"],
+      "weaknesses": ["产品较重，实施周期长", "价格偏高，超出中小客户预算", "钉钉集成深度一般，移动端体验待优化"],
+      "counterStrategy": "主打轻量灵活、快速上线的优势，强调与钉钉的深度集成和移动端体验，用性价比吸引客户"
+    },
+    {
+      "name": "Excel/手动管理",
+      "threat": "低",
+      "strengths": ["零成本，团队熟悉", "灵活度高，可随意调整", "无学习成本，上手即用"],
+      "weaknesses": ["信息分散，难以协同", "无版本控制，易出错", "依赖个人经验，无法沉淀知识"],
+      "counterStrategy": "用具体案例展示手工管理的效率瓶颈和风险（如交付超期、需求遗漏），量化引入系统后的效率提升"
+    }
+  ],
+  "decisionChain": {
+    "decisionMakers": [
+      {
+        "name": "",
+        "department": "创始人/CEO",
+        "reason": "最终预算审批和战略方向决策，关注ROI和业务增长支撑"
+      },
+      {
+        "name": "",
+        "department": "业务负责人",
+        "reason": "日常项目管理的第一责任人，对交付质量和效率最敏感，是核心使用者和推荐者"
+      }
+    ],
+    "influencers": [
+      {
+        "name": "",
+        "department": "技术负责人",
+        "reason": "评估技术可行性、集成难度和维护成本，关注系统稳定性和扩展性"
+      },
+      {
+        "name": "",
+        "department": "销售团队",
+        "reason": "实际使用CRM模块的一线人员，反馈体验好坏直接影响推广意愿"
+      }
+    ],
+    "blockers": [
+      {
+        "name": "",
+        "department": "财务/行政",
+        "reason": "对预算敏感，可能因价格或采购流程拖延决策；关注合规风险，对供应商资质要求严格"
+      }
+    ]
+  },
+  "avoidTopics": [
+    "供应商黑名单事件的具体原因和细节（客户可能不愿提及）",
+    "与钉钉合作关系的稳定性（避免引发对生态依赖的担忧）",
+    "人员流动率高的管理问题（可能涉及内部敏感信息）"
+  ],
+  "interviewGuide": {
+    "fromRequirements": [
+      {
+        "questionId": "PQ-001",
+        "stage": "screening",
+        "question": "贵司目前使用哪些工具管理项目？（如Teambition、TAPD、Excel等）替换意愿如何？",
+        "priority": "必问",
+        "status": "pending"
+      },
+      {
+        "questionId": "PQ-003",
+        "stage": "screening",
+        "question": "贵司对软件的年度预算大概是多少？倾向于一次性买断还是订阅模式？",
+        "priority": "必问",
+        "status": "pending"
+      },
+      {
+        "questionId": "PQ-004",
+        "stage": "screening",
+        "question": "核心决策人是谁？内部有没有已经考察过竞品？",
+        "priority": "必问",
+        "status": "pending"
+      },
+      {
+        "questionId": "PQ-005",
+        "stage": "screening",
+        "question": "你们现有的客户数量大概是多少？年销售额大概在什么量级？",
+        "priority": "选问",
+        "status": "pending"
+      },
+      {
+        "questionId": "PQ-002",
+        "stage": "deep-dive",
+        "question": "合规被列入黑名单的具体原因是什么？目前是否已解除，有哪些合规整改措施？",
+        "priority": "必问",
+        "status": "pending"
+      },
+      {
+        "questionId": "PQ-007",
+        "stage": "deep-dive",
+        "question": "员工使用钉钉的深度如何？是否已经在用钉钉项目或Teambition？",
+        "priority": "选问",
+        "status": "pending"
+      },
+      {
+        "questionId": "PQ-008",
+        "stage": "deep-dive",
+        "question": "有没有考虑过基于钉钉宜搭自建，还是更倾向成熟的SaaS产品？",
+        "priority": "选问",
+        "status": "pending"
+      },
+      {
+        "questionId": "PQ-006",
+        "stage": "closing",
+        "question": "希望优先解决哪个痛点？（项目管理/交付管控/合规管理）",
+        "priority": "选问",
+        "status": "pending"
+      }
+    ]
+  },
+  "tracking": {
+    "coverageRate": 0,
+    "coveredCount": 0,
+    "totalCount": 8,
+    "pendingCritical": ["PQ-001", "PQ-002", "PQ-003", "PQ-004"]
+  },
+  "metadata": {
+    "generatedAt": "2026-04-09T00:00:00.000Z",
+    "updatedAt": "2026-04-09T00:00:00.000Z",
+    "version": "1.0"
+  }
+}
