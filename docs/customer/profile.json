@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "companyName": "杭州天霖云数字科技有限公司",
+  "shortName": "天霖云",
+  "summary": "专注于钉钉生态的企业数字化管理服务商，钉钉钻石7星服务商",
+  "industry": "科技/软件",
+  "subIndustry": "企业数字化管理",
+  "scale": "30-99人",
+  "mainBusiness": "钉钉软硬件销售、技术开发、企业管理咨询",
+  "products": [
+    {
+      "name": "钉钉数字化管理服务",
+      "description": "基于钉钉中台的企业数字化管理解决方案"
+    }
+  ],
+  "targetCustomers": [
+    "中小企业",
+    "数字化转型需求企业"
+  ],
+  "businessModel": "SaaS服务+咨询服务",
+  "rating": "",
+  "tags": [
+    "钉钉服务商",
+    "数字化转型",
+    "企业服务",
+    "SaaS"
+  ],
+  "website": null,
+  "slogan": "让天下没有难管的企业",
+  "isListed": false,
+  "stockCode": null,
+  "revenueScale": null,
+  "registration": {
+    "registeredName": "杭州天霖云数字科技有限公司",
+    "registeredCapital": 1000,
+    "paidCapital": null,
+    "establishedDate": "2017-05-03",
+    "legalRepresentative": null,
+    "businessStatus": "存续",
+    "shareholders": [],
+    "branchCount": null,
+    "interpretation": "注册资本1000万元，存续状态，专注于企业数字化管理服务",
+    "organizationType": "私营企业",
+    "keyFindings": [
+      "钉钉钻石7星服务商，全国top前十",
+      "2020年重组后专注钉钉生态"
+    ]
+  },
+  "hiring": {
+    "keySignals": [
+      {
+        "position": "电话销售",
+        "salary": "8000-10000元",
+        "location": "杭州",
+        "date": "2026-03-16"
+      }
+    ]
+  },
+  "competition": {
+    "industryRank": "钉钉服务商前十",
+    "marketShare": null,
+    "mainCompetitors": [
+      "其他钉钉服务商",
+      "用友",
+      "金蝶"
+    ],
+    "knownClients": []
+  },
+  "organization": {
+    "type": "创业型",
+    "decisionChain": "技术负责人→业务负责人→总经理",
+    "keyPersons": [],
+    "salesStrategy": "聚焦钉钉生态客户，提供数字化管理咨询+实施服务"
+  },
+  "timing": {
+    "phase": "扩张强化",
+    "analysisBasis": [
+      "钉钉生态持续扩张",
+      "企业数字化转型需求增长",
+      "2020年重组后专注发展"
+    ],
+    "entryStrategy": "通过钉钉服务商渠道切入，提供增值服务",
+    "urgency": "窗口期6-12个月，钉钉生态竞争加剧"
+  },
+  "painPoints": [
+    {
+      "area": "项目管理",
+      "description": "多项目并行混乱，进度不透明",
+      "severity": "中"
+    },
+    {
+      "area": "客户管理",
+      "description": "客户信息分散，销售过程不透明",
+      "severity": "中"
+    },
+    {
+      "area": "知识管理",
+      "description": "经验在个人脑中，新人培养慢",
+      "severity": "中"
+    }
+  ],
+  "opportunities": [
+    {
+      "area": "数字化转型",
+      "description": "企业数字化需求持续增长",
+      "likelihood": "高"
+    },
+    {
+      "area": "钉钉生态",
+      "description": "钉钉平台持续扩张带来服务机会",
+      "likelihood": "高"
+    }
+  ],
+  "riskAndPolicy": {
+    "legal": {
+      "lawsuitCount": 0,
+      "executedPerson": 0,
+      "dishonestPerson": 0,
+      "businessAnomalies": 0,
+      "equityFreeze": 0
+    },
+    "policy": {
+      "isSpecializedSME": false,
+      "smeLevel": null,
+      "isHighTech": false,
+      "digitalTransformation": {
+        "hit": true,
+        "tags": [
+          "数字化转型"
+        ]
+      },
+      "esgGreen": {
+        "hit": false,
+        "tags": []
+      }
+    }
+  }
+}
