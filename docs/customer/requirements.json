@@ -1,0 +1,461 @@
+{
+  "currentVersion": "v0.1",
+  "status": "draft",
+  "versions": [
+    {
+      "version": "v0.1",
+      "createdAt": "2026-04-09T00:00:00.000Z",
+      "trigger": "cold-start",
+      "inputSummary": "基于客户档案推演",
+      "changeSummary": ["从档案推演业务需求6条、功能需求4条、技术需求3条"]
+    }
+  ],
+  "current": {
+    "needs": [
+      {
+        "id": "REQ-001",
+        "category": "business",
+        "title": "多项目并行管理",
+        "description": "同时管理多个客户项目，需要统一的项目看板、进度跟踪、资源协调和风险预警，避免项目超期和资源冲突",
+        "priority": "must",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案痛点-项目管理，severity: 中",
+          "raw": null
+        },
+        "status": "active",
+        "module": "项目管理",
+        "relatedPainPoints": ["项目管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-002",
+        "category": "business",
+        "title": "销售过程标准化管理",
+        "description": "客户信息集中管理、销售漏斗可视化、商机跟进提醒，提高从线索到签单的转化率",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案痛点-客户管理，severity: 中",
+          "raw": null
+        },
+        "status": "active",
+        "module": "CRM",
+        "relatedPainPoints": ["客户管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-003",
+        "category": "business",
+        "title": "项目知识沉淀与共享",
+        "description": "将项目经验、解决方案、最佳实践结构化沉淀，支持团队查询和复用，减少重复开发",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案痛点-知识管理，severity: 中",
+          "raw": null
+        },
+        "status": "active",
+        "module": "知识管理",
+        "relatedPainPoints": ["知识管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-004",
+        "category": "business",
+        "title": "定制项目交付质量管控",
+        "description": "需求变更记录、交付里程碑、验收确认全链路管理，控制交付周期和质量",
+        "priority": "must",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案痛点-交付管理，severity: 高",
+          "raw": null
+        },
+        "status": "active",
+        "module": "交付管理",
+        "relatedPainPoints": ["交付管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-005",
+        "category": "business",
+        "title": "合规与供应商资质管理",
+        "description": "建立内部合规检查清单、供应商资质档案及到期预警，防止再次出现黑名单事件",
+        "priority": "must",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案痛点-合规风险，severity: 高",
+          "raw": null
+        },
+        "status": "active",
+        "module": "合规管理",
+        "relatedPainPoints": ["合规风险"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-006",
+        "category": "business",
+        "title": "合同与回款跟踪",
+        "description": "合同执行进度、应收款账期、回款节点跟踪，降低坏账风险",
+        "priority": "could",
+        "confidence": "low",
+        "source": {
+          "type": "industry-pattern",
+          "detail": "参考科技行业回款管理痛点",
+          "raw": null
+        },
+        "status": "active",
+        "module": "合同管理",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-007",
+        "category": "functional",
+        "title": "项目看板与甘特图",
+        "description": "可视化展示所有项目状态、里程碑、资源分配情况，支持按负责人/客户/时间筛选",
+        "priority": "must",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "REQ-001多项目管理的功能实现",
+          "raw": null
+        },
+        "status": "active",
+        "module": "项目管理",
+        "relatedPainPoints": ["项目管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-008",
+        "category": "functional",
+        "title": "CRM客户管理与销售漏斗",
+        "description": "客户信息录入、商机阶段流转、跟进记录、通话/拜访日志，与钉钉消息互通",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "REQ-002销售管理的功能实现",
+          "raw": null
+        },
+        "status": "active",
+        "module": "CRM",
+        "relatedPainPoints": ["客户管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-009",
+        "category": "functional",
+        "title": "需求变更管理与验收流程",
+        "description": "需求提出→评审→变更确认→交付验收全流程，支持电子签章确认",
+        "priority": "must",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "REQ-004交付管控的功能实现",
+          "raw": null
+        },
+        "status": "active",
+        "module": "交付管理",
+        "relatedPainPoints": ["交付管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-010",
+        "category": "functional",
+        "title": "知识库与文档管理",
+        "description": "结构化知识库，支持按项目/产品/行业分类检索，支持Markdown编写和版本管理",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "REQ-003知识沉淀的功能实现",
+          "raw": null
+        },
+        "status": "active",
+        "module": "知识管理",
+        "relatedPainPoints": ["知识管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-011",
+        "category": "technical",
+        "title": "钉钉深度集成",
+        "description": "与钉钉账号体系、消息通知、审批流、钉钉小程序/机器人深度集成，员工在钉钉内完成主要操作",
+        "priority": "must",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "天霖云为钉钉服务商，全员钉钉化概率极高",
+          "raw": null
+        },
+        "status": "active",
+        "module": "集成",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-012",
+        "category": "technical",
+        "title": "宜搭/低代码平台联动",
+        "description": "与钉钉宜搭等低代码平台数据打通，实现项目管理与低代码应用的数据联动",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "天霖云核心业务基于低代码开发，需与自有产品联动",
+          "raw": null
+        },
+        "status": "active",
+        "module": "集成",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-013",
+        "category": "technical",
+        "title": "移动端优先",
+        "description": "主要操作场景在移动端完成，支持外出拜访、随时查看项目状态和接收待办提醒",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "industry-pattern",
+          "detail": "SaaS服务标配要求",
+          "raw": null
+        },
+        "status": "active",
+        "module": "用户体验",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      }
+    ],
+    "users": [
+      {
+        "role": "创始人/CEO",
+        "description": "1-2人，负责全局决策",
+        "mainTasks": ["全局经营看板查看", "项目盈亏分析", "关键风险审批"]
+      },
+      {
+        "role": "项目经理/业务负责人",
+        "description": "3-5人，核心用户，高频使用",
+        "mainTasks": ["多项目进度管理", "资源协调", "跨客户需求统筹"]
+      },
+      {
+        "role": "销售/客户经理",
+        "description": "3-5人",
+        "mainTasks": ["客户信息管理", "销售跟进", "商机提醒", "回款跟踪"]
+      },
+      {
+        "role": "开发/售前顾问",
+        "description": "5-10人",
+        "mainTasks": ["知识库查询", "需求文档编写", "交付进度查看"]
+      },
+      {
+        "role": "行政/运营",
+        "description": "1-2人",
+        "mainTasks": ["合同管理", "供应商资质管理", "合规文档归档"]
+      }
+    ],
+    "constraints": {
+      "budget": {
+        "total": "",
+        "flexibility": "未知"
+      },
+      "timeline": {
+        "expectedStart": "",
+        "expectedGoLive": ""
+      }
+    },
+    "pendingQuestions": [
+      {
+        "id": "PQ-001",
+        "category": "业务",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "贵司目前使用哪些工具管理项目？（如Teambition、TAPD、Excel等）替换意愿如何？",
+        "purpose": "影响产品选型和迁移方案",
+        "expectedDirection": "了解现有工具和迁移难度",
+        "targetPerson": "项目经理/业务负责人",
+        "relatedNeedIds": ["REQ-001", "REQ-007"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-002",
+        "category": "业务",
+        "priority": "必问",
+        "stage": "deep-dive",
+        "question": "合规被列入黑名单的具体原因是什么？目前是否已解除，有哪些合规整改措施？",
+        "purpose": "明确合规需求边界，设计针对性方案",
+        "expectedDirection": "了解事件性质和整改状态",
+        "targetPerson": "创始人/CEO",
+        "relatedNeedIds": ["REQ-005"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-003",
+        "category": "预算",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "贵司对软件的年度预算大概是多少？倾向于一次性买断还是订阅模式？",
+        "purpose": "定价模式影响方案设计",
+        "expectedDirection": "明确预算区间和付费偏好",
+        "targetPerson": "创始人/CEO",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-004",
+        "category": "决策",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "核心决策人是谁？内部有没有已经考察过竞品？",
+        "purpose": "明确决策链和竞争态势",
+        "expectedDirection": "识别关键KP和竞争格局",
+        "targetPerson": "创始人/CEO",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-005",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "screening",
+        "question": "你们现有的客户数量大概是多少？年销售额大概在什么量级？",
+        "purpose": "评估CRM和项目管理规模需求",
+        "expectedDirection": "了解业务体量",
+        "targetPerson": "创始人/CEO",
+        "relatedNeedIds": ["REQ-002", "REQ-008"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-006",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "closing",
+        "question": "希望优先解决哪个痛点？（项目管理/交付管控/合规管理）",
+        "purpose": "如果预算有限，优先聚焦高频刚需场景",
+        "expectedDirection": "确认优先级",
+        "targetPerson": "创始人/CEO",
+        "relatedNeedIds": ["REQ-001", "REQ-004", "REQ-005"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-007",
+        "category": "技术",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "员工使用钉钉的深度如何？是否已经在用钉钉项目或Teambition？",
+        "purpose": "影响集成方案和培训成本",
+        "expectedDirection": "了解现有钉钉使用情况",
+        "targetPerson": "技术负责人",
+        "relatedNeedIds": ["REQ-011", "REQ-012"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-008",
+        "category": "技术",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "有没有考虑过基于钉钉宜搭自建，还是更倾向成熟的SaaS产品？",
+        "purpose": "区分自建vs外购策略",
+        "expectedDirection": "明确采购倾向",
+        "targetPerson": "创始人/CEO",
+        "relatedNeedIds": ["REQ-012"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      }
+    ],
+    "risksAndAssumptions": {
+      "risks": [
+        {
+          "description": "合规黑名单事件已影响客户信任，需评估恢复周期",
+          "impact": "高",
+          "mitigation": "在方案中突出合规管理模块，帮助客户建立预防机制"
+        },
+        {
+          "description": "服务商模式导致项目类型多样（软硬件销售+定制开发+咨询），需求差异大",
+          "impact": "中",
+          "mitigation": "优先聚焦高优先级需求，采用MVP分阶段交付"
+        },
+        {
+          "description": "30-99人规模人员变动可能较快，组织架构和管理流程尚未固化",
+          "impact": "中",
+          "mitigation": "选择轻量灵活的工具，强调渐进式落地"
+        }
+      ],
+      "assumptions": [
+        {
+          "description": "客户的核心诉求是多项目管理与交付质量管控，这是购买决策的首要驱动",
+          "impact": "高"
+        },
+        {
+          "description": "钉钉已是全员日常工具，与钉钉深度集成可显著降低推广阻力",
+          "impact": "高"
+        },
+        {
+          "description": "预算区间在10-30万/年（对标30-99人科技公司SaaS工具采购惯例）",
+          "impact": "中"
+        }
+      ]
+    },
+    "completionRate": {
+      "overall": 25,
+      "byCategory": {
+        "business": 40,
+        "functional": 20,
+        "technical": 20
+      },
+      "blockers": [
+        "缺少客户当面沟通（需求未核实，仅基于档案推演）",
+        "预算和timeline未确认",
+        "核心决策人偏好和竞品对比情况未知"
+      ]
+    }
+  }
+}
